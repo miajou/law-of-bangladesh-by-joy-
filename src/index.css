@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #0B1220;
+    --bg-secondary: #151F30;
+    --bg-card: #141E33;
+    --bg-card-hover: #1A2744;
+    --gold-primary: #D4AF37;
+    --gold-light: #F3E5AB;
+    --gold-dark: #B38F24;
+    --text-primary: #F8FAFC;
+    --text-secondary: #AAB4C3;
+    --border-subtle: rgba(212, 175, 55, 0.18);
+    --border-card: rgba(255, 255, 255, 0.08);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Hind Siliguri', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-bengali {
+  font-family: 'Noto Serif Bengali', 'Cinzel', Georgia, serif;
+}
+
+.font-display {
+  font-family: 'Cinzel', 'Noto Serif Bengali', serif;
+}
+
+/* Custom scrollbars for legal text reader and navigation */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B1220;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #23314A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Gold foil glow & subtle border styling */
+.gold-border-gradient {
+  border-image: linear-gradient(to bottom right, #D4AF37, #85691F, #D4AF37) 1;
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.25);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "বাংলাদেশ আইন ভান্ডার - Bangladesh Law Library",
+  "description": "বাংলাদেশের সকল আইন, সংবিধান, অধ্যাদেশ, ফৌজদারি ও দেওয়ানি ধারার আধুনিক ডিজিটাল লাইব্রেরি এবং পিডিএফ ব্যবস্থাপনা।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
